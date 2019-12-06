@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio>
- using namespace std;
+
 
 /*
  * 2

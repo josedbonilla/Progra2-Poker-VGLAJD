@@ -2,8 +2,6 @@
 #include "Carta.h"
 #include <stdlib.h>
 #include <time.h>
-#include <stdio>
- using namespace std;
 
 /*
  * 2
@@ -25,9 +23,9 @@
  * 69    E
  * 84    T
  */
-Carta::Carta(char p, char n) {
-	setPalo(p);
-	setNumero(n);
+Carta::Carta() {
+	setPalo();
+	setNumero();
 }
 
 Carta::~Carta(){

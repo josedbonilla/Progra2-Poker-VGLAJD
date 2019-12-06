@@ -45,7 +45,7 @@ public:
 	* return numero.
 	*/
 	int getNumero();
-	void print(int );
+	void print();
 
 };
 

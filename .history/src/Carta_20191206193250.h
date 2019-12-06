@@ -17,7 +17,7 @@ public:
 	/*
 	* Constructor de la Clase.
 	*/
-	Carta(char, char);
+	Carta(int, int);
 
 	/*
 	* Destructor de la Clase.
@@ -45,8 +45,8 @@ public:
 	* return numero.
 	*/
 	int getNumero();
-	void print(int );
+	void print();
 
 };
 
-#endif
+#endif CARTA_H

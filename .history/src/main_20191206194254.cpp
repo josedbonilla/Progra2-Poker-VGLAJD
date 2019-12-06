@@ -29,6 +29,7 @@ int main() {
         Carta cartaparaMazo(usuario, num);
         cartaparaMazo.print(contador);
         contador++;
+        cartaparaMazo.~Carta();
     }
     
     return 0;

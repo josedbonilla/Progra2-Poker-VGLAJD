@@ -26,7 +26,7 @@ int main() {
     char num;
     int contador = 1;
     while (scanf("%c %c", usuario, num) != '\0') {
-        Carta cartaparaMazo(usuario, num);
+        Carta cartaparaMazo = new Carta(usuario, num);
         cartaparaMazo.print(contador);
         contador++;
     }

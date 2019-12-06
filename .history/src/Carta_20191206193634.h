@@ -45,8 +45,8 @@ public:
 	* return numero.
 	*/
 	int getNumero();
-	void print(int );
+	void print();
 
 };
 
-#endif
+#endif CARTA_H

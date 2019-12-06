@@ -14,22 +14,15 @@
 //Controlador.
 
 #include "stdafx.h"
-#include "Carta.cpp"
-/*
 #include "Mazo.cpp"
 #include "Jugador.cpp"
 #include "Estrategia.cpp"
-*/
+
 
 int main() {
-    char usuario;
-    char num;
-    int contador = 1;
-    while (scanf("%c %c", usuario, num) != '\0') {
-        Carta cartaparaMazo(usuario, num);
-        cartaparaMazo.print(contador);
-        contador++;
-    }
+    char usuario = " " ;
+    char num = " "
+    cin << 
     
     return 0;
 }
