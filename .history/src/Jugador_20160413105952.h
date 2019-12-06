@@ -2,15 +2,13 @@ using namespace std;
 #pragma once
 #include <list>
 #include "Carta.h"
-
-#ifndef JUGADOR_H
-#define JUGADOR_H
 class Jugador {
 
 private:
 	int dinero;
 	int apuesta;
 	list<Carta> mano;
+
 
 public:
 
@@ -35,5 +33,3 @@ public:
 	*/
 	list<Carta> getMano();
 };
-
-#endif JUGADOR_H

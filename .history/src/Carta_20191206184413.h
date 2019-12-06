@@ -2,10 +2,6 @@
 
 #ifndef CARTA_H
 #define CARTA_H
-
-/**
- * Clase Carta, definicion de la clase, miembros variables y funciones miembro.
- */
 class Carta {
 
 private:
@@ -36,13 +32,11 @@ public:
 	
 	/*
 	* Metodo para retornar el valor de la variable miembro Palo.
-	* @return Palo.
 	*/
 	char getPalo();
 
 	/*
 	* Metodo para retornar el valor de la variable miembro Numero.
-	* return numero.
 	*/
 	int getNumero();
 
