@@ -7,7 +7,7 @@ using namespace std;
 #define ESTRATEGIA_H
 
 /**
- * Clase Estrategia, definicion de la clase, miembros variables y funciones miembro.
+ * Clase Carta, definicion de la clase, miembros variables y funciones miembro.
  */
 
 /* 
