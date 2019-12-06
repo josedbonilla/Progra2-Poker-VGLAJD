@@ -4,6 +4,8 @@
 #include <time.h>
 
 /*
+ * del más pequeño hacia el mayor: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K y A.
+ * Espadas = e, Diamantes = d, Corazones = c & Treboles = t
  * 2
  * 3
  * 4
@@ -24,8 +26,8 @@
  * 84    T
  */
 Carta::Carta() {
-	setPalo();
-	setNumero();
+	palo = " ";
+	numero = 0;
 }
 
 Carta::~Carta(){
@@ -37,7 +39,7 @@ void Carta::setPalo( char tipoPalo ) {
 }
 
 void Carta::setNumero( char numeroCarta ) {
-	numero = numeroCarta;
+
 }
 
 char Carta::getPalo() {

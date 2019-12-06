@@ -24,8 +24,8 @@
  * 84    T
  */
 Carta::Carta() {
-	setPalo();
-	setNumero();
+	palo = " ";
+	numero = 0;
 }
 
 Carta::~Carta(){
@@ -37,7 +37,7 @@ void Carta::setPalo( char tipoPalo ) {
 }
 
 void Carta::setNumero( char numeroCarta ) {
-	numero = numeroCarta;
+
 }
 
 char Carta::getPalo() {

@@ -27,12 +27,12 @@ public:
 	/*
 	 * Metodo para establecer el valor de la variable miembro Palo.
 	 */
-	void setPalo(char);
+	void setPalo();
 
 	/*
 	 * Metodo para establecer el valor de la variable miembro Numero.
 	 */
-	void setNumero(char);
+	void setNumero();
 	
 	/*
 	* Metodo para retornar el valor de la variable miembro Palo.

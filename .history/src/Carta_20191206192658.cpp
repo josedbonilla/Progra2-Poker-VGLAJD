@@ -24,8 +24,8 @@
  * 84    T
  */
 Carta::Carta() {
-	setPalo();
-	setNumero();
+	palo = " ";
+	numero = 0;
 }
 
 Carta::~Carta(){
