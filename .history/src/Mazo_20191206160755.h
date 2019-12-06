@@ -1,40 +1,29 @@
-#include "stdafx.h"
-#include "Mazo.h"
+using namespace std;
+#pragma once
+#include <list>
+#include "Carta.h"
+class Mazo {
 
-/*
- *  En ella, hay 52 cartas.
- */
+private:
+	list <Carta> mazo;
 
-Mazo::Mazo()
-{
-    int totalMazo = Numero_Palos * Carta_de_Palo;
-    for (int i = 0; i < ; i++)
-		listOfInts.push_back(Carta);
-}
-
-
-Mazo::~Mazo()
-{
-}
+public:
+	Mazo();
+	~Mazo();
 
 
-void Mazo::revolver() {
-    mazo.sort()
+
+	void revolver();
+
+	void repartir();
+	void barajar();
+	void Analizar();
+	//Carta repartir();
+
+
+
+
 };
-
-
-
-/*
-
-Carta Mazo:: repartir(){
-
-return Carta
-};
-
-
-
-*/
-
 
 /*
 

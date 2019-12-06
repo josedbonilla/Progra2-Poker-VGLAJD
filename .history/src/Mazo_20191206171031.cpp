@@ -7,8 +7,7 @@
 
 Mazo::Mazo()
 {
-    int totalMazo = Numero_Palos * Carta_de_Palo;
-    for (int i = 0; i < ; i++)
+    for (int i = 0; i < 10; i++)
 		listOfInts.push_back(Carta);
 }
 

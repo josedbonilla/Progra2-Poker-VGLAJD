@@ -2,14 +2,11 @@ using namespace std;
 #pragma once
 #include <list>
 #include "Carta.h"
-
-#ifndef MAZO_H
-#define MAZO_H
 class Mazo {
 
 private:
-	const int Numero_Palos = 4;  //cantidad de Palos dentro de la baraja.
- 	const int Cartas_de_Palo = 13; //Cantidad de Cartas dentro de c/ palo.
+	const int Numero_Palos = 4;  //cantidad de Palos dentro de la baraja
+ 	const int Cartas_de_Palo = 13;
 	list <Carta> mazo;
 
 
@@ -30,5 +27,3 @@ public:
 
 
 };
-
-#endif MAZO_H

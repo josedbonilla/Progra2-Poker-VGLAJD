@@ -7,9 +7,7 @@
 
 Mazo::Mazo()
 {
-    int totalMazo = Numero_Palos * Carta_de_Palo;
-    for (int i = 0; i < ; i++)
-		listOfInts.push_back(Carta);
+    mazodeJuego[]= {52};
 }
 
 
@@ -19,7 +17,7 @@ Mazo::~Mazo()
 
 
 void Mazo::revolver() {
-    mazo.sort()
+
 };
 
 

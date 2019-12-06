@@ -1,40 +1,29 @@
-#include "stdafx.h"
-#include "Mazo.h"
+using namespace std;
+#pragma once
+#include <list>
+#include "Carta.h"
+class Mazo {
 
-/*
- *  En ella, hay 52 cartas.
- */
+private:
+	list <Carta> mazo;
 
-Mazo::Mazo()
-{
-    int totalMazo = Numero_Palos * Carta_de_Palo;
-    for (int i = 0; i < ; i++)
-		listOfInts.push_back(Carta);
-}
-
-
-Mazo::~Mazo()
-{
-}
+public:
+	Mazo();
+	~Mazo();
 
 
-void Mazo::revolver() {
-    mazo.sort()
+
+	void revolver();
+
+	repartir();
+	barajar();
+	Analizar();
+	//Carta repartir();
+
+
+
+
 };
-
-
-
-/*
-
-Carta Mazo:: repartir(){
-
-return Carta
-};
-
-
-
-*/
-
 
 /*
 
@@ -78,39 +67,5 @@ return Carta
 
  return;
  } // Cierra barajar
-
- /////////////////////////////////////////////////////////////////
- // Inicia la funcion repartir
- ////////////////////////////////////////////////////////////////
-
- void Repartir( int barajadas[][14] )
-
- { // Abre Repartir
- const char *Numero[14] = { "error", "As", "Dos", "Tres", "Cuatro", "Cinco",
- "seis", "siete", "ocho", "Nueve", "Diez",
- "Sota", "Reina", "Rey"};
-
- const char *Palos[5] = { "error", "Corazones", "Treboles", "Espadas",
- "Diamantes"};
-
- //cout << "\nSu mano es la siguiente:\n " << endl;
-
-
- for ( int r = 1; r <= 5; r++ )
- // Se repartiran 5 cartas
-
- { //Abre for
- for ( int y = 1; y <= 4; y++ )
- {
- for ( int z = 1; z <= 13; z++ )
- { //Abre for doble anidado
- if ( r == barajadas[y][z])
- cout << Numero[z] << " de " << Palos[y] << endl;
-
- } // Cierra for doble anidado
- } //Cierra for anidado
- } //Cierra for
- } // Cierra Repartir
-
 
  */

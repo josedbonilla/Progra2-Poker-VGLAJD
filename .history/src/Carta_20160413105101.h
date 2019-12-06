@@ -18,14 +18,6 @@ public:
 	~Carta();
 
 	/*
-	 *
-	 */
-	void setPalo();
-	/*
-	 *
-	 */
-	void setNumero();
-	/*
 	*
 	*/
 	char getPalo();
